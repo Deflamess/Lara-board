@@ -80,7 +80,9 @@ html, body {
 @endif
 
 <div class="content">
-    <p>{{ $post }}</p>
+    <h1>My second project started </h1>
+    
+    <p>{{ $post->body }}</p>
 </div>
 </div>
 </body>
